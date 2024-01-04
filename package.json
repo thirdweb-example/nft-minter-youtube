@@ -11,14 +11,18 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@thirdweb-dev/engine": "^0.0.4",
     "@thirdweb-dev/react": "^4",
     "@thirdweb-dev/sdk": "^4",
+    "@thirdweb-dev/storage": "^2.0.8",
     "ethers": "^5",
+    "formidable": "^3.5.1",
     "next": "^13",
     "react": "^18.2",
     "react-dom": "^18.2"
   },
   "devDependencies": {
+    "@types/formidable": "^3.4.5",
     "@types/node": "^18.11.11",
     "@types/react": "^18",
     "eslint": "^8.29.0",

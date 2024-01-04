@@ -143,3 +143,126 @@
 .logo img {
   filter: invert(1);
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: #131313;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbarLogo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarLinks p {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.navbarLinks p:hover {
+  color: royalblue;
+}
+.minterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 2rem;
+  height: 50vh;
+}
+.mintContainerSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 1rem;
+  width: 50%;
+  height: 100%;
+}
+.metadataInput {
+  height: 48px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: #131313;
+  color: #fff;
+}
+.mintButton {
+  height: 48px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid royalblue;
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-top: 40px;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.mintButton:hover {
+  background-color: #fff;
+  color: royalblue;
+}
+.mintButton:disabled {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+}
+.fileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.resetButton {
+  height: 48px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  padding: 0 1rem;
+  font-size: 1rem;
+  background-color: crimson;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.resetButton:hover {
+  background-color: darkred;
+}
+.nftCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #333;
+  transition: all 0.2s ease-in-out;
+}
+.nftCardContainer:hover {
+  transform: scale(1.02);
+}
+.nftCardContainer p {
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  color: #555;
+}
